@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#likeBtn,
+#dislikeBtn {
+  font-size: 30px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  background: rgb(144, 221, 224);
+  border-radius: 10px;
+}
+
+#likeBtn:hover,
+#dislikeBtn:hover {
+  background: rgb(81, 127, 128);
+}
+
+#commentBox {
+  width: 50%;
+  height: 100px;
+  margin: 10px auto;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#submit,
+#clear {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comment-item {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 5px auto;
+  width: 50%;
+  border-radius: 5px;
+}
