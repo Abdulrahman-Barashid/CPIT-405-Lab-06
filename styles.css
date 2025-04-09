@@ -1,49 +1,74 @@
 body {
-  text-align: center;
   font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
 }
 
-#likeBtn,
-#dislikeBtn {
-  font-size: 30px;
-  padding: 10px 20px;
-  margin: 10px;
-  border: none;
-  cursor: pointer;
-  background: rgb(144, 221, 224);
+.container {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
   border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-#likeBtn:hover,
-#dislikeBtn:hover {
-  background: rgb(81, 127, 128);
-}
-
-#commentBox {
-  width: 50%;
-  height: 100px;
-  margin: 10px auto;
-  display: block;
-  font-size: 16px;
-  padding: 10px;
-}
-
-#submit,
-#clear {
+.buttons button {
   font-size: 18px;
+  margin: 10px;
   padding: 10px 20px;
-  margin: 5px;
   cursor: pointer;
+  border: none;
+  border-radius: 5px;
 }
 
-.comments {
+#likeBtn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#dislikeBtn {
+  background-color: #f44336;
+  color: white;
+}
+
+.comment-section {
   margin-top: 20px;
 }
 
-.comment-item {
-  background: #f4f4f4;
-  padding: 10px;
-  margin: 5px auto;
-  width: 50%;
+.comment-section input {
+  width: 70%;
+  padding: 8px;
+}
+
+.comment-section button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #008CBA;
+  color: white;
+  border: none;
   border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #ddd;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.reset {
+  margin-top: 20px;
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
